@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="/public/user/js/logout.js"></script>
+
+    <title>price-tracker · Offers</title>
+  </head>
+  <body onload="onLoad()" class="min-h-screen w-full">
+    <nav
+      class="w-full h-fit lg:h-14 flex flex-col lg:flex-row justify-center lg:justify-start items-center text-white bg-teal-500"
+    >
+      <a
+        href="/"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-teal-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Home</a
+      >
+
+      <a
+        href="/account"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-teal-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Account</a
+      >
+      <button
+        onclick="logout()"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 ml-auto bg-yellow-500 hover:bg-yellow-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+      >
+        Logout
+      </button>
+    </nav>
+
+    <div id="offers-container"></div>
+
+    <script src="/public/user/js/offers.js"></script>
+  </body>
+</html>

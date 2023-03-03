@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+
+    <script src="/public/admin/js/logout.js"></script>
+
+    <title>Admin · Discount Stats</title>
+  </head>
+  <body onload="onLoad()" class="min-h-screen w-full">
+    <nav
+      class="w-full h-fit lg:h-14 flex flex-col lg:flex-row justify-center lg:justify-start items-center text-white bg-blue-500"
+    >
+      <a
+        href="/admin/product-data"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-blue-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Product Data</a
+      >
+      <a
+        href="/admin/store-data"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-blue-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Store Data</a
+      >
+      <a
+        href="/admin/offer-stats"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-blue-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Offer Stats</a
+      >
+      <a
+        href="/admin/discount-stats"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-blue-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Discount Stats</a
+      >
+      <a
+        href="/admin/leaderboard"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-blue-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Leaderboard</a
+      >
+      <a
+        href="/admin/map"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 hover:bg-blue-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >Map</a
+      >
+
+      <button
+        onclick="logout()"
+        class="w-full lg:w-fit h-full flex justify-center items-center px-5 py-2 lg:py-3 ml-auto bg-yellow-500 hover:bg-yellow-600 font-bold text-sm leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+      >
+        Logout
+      </button>
+    </nav>
+
+    <div class="w-full flex mt-4 flex-col justify-center items-center">
+      <div class="w-full lg:w-4/6 flex flex-row mb-4">
+        <select
+          aria-label="Select category"
+          id="category-select"
+          onchange="onCategoryChange()"
+          class="block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-teal-500 focus:outline-none"
+        >
+          <option value="" disabled selected hidden>Select category...</option>
+        </select>
+
+        <select
+          aria-label="Select subcategory"
+          id="subcategory-select"
+          class="block w-full px-4 py-2 ml-3 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-teal-500 focus:outline-none"
+        >
+          <option value="" disabled selected hidden>
+            Select subcategory...
+          </option>
+        </select>
+      </div>
+
+      <div class="w-full lg:w-4/6 flex flex-row mb-4">
+        <input
+          type="number"
+          value="2022"
+          min="2000"
+          max="2100"
+          id="year-input"
+          class="block w-full px-4 py-2 text-md font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-500 focus:outline-none"
+        />
+        <input
+          type="number"
+          value="1"
+          min="1"
+          max="53"
+          id="week-input"
+          class="block w-full px-4 py-2 ml-3 mr-3 text-md font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-500 focus:outline-none"
+        />
+
+        <button
+          onclick="onWeekSelect()"
+          class="inline-block px-7 py-3 bg-blue-500 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-600 hover:shadow-lg focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-700 active:shadow-lg transition duration-150 ease-in-out"
+        >
+          Select
+        </button>
+      </div>
+
+      <div class="w-full lg:w-4/6">
+        <canvas id="graph"></canvas>
+      </div>
+    </div>
+
+    <script src="/public/admin/js/discount-stats.js"></script>
+  </body>
+</html>

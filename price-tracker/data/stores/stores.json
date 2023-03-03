@@ -1,0 +1,625 @@
+[
+  {
+    "id": 0,
+    "name": "Lidl",
+    "type": "supermarket",
+    "latitude": 38.2080319,
+    "longitude": 21.712654
+  },
+  {
+    "id": 1,
+    "name": "The Mart",
+    "type": "supermarket",
+    "latitude": 38.28931,
+    "longitude": 21.7806567
+  },
+  {
+    "id": 2,
+    "name": "Lidl",
+    "type": "supermarket",
+    "latitude": 38.2633511,
+    "longitude": 21.7434265
+  },
+  {
+    "id": 3,
+    "name": "Σουπερμάρκετ Ανδρικόπουλος",
+    "type": "supermarket",
+    "latitude": 38.2952086,
+    "longitude": 21.7908028
+  },
+  {
+    "id": 4,
+    "name": "Σκλαβενίτης",
+    "type": "supermarket",
+    "latitude": 38.2104365,
+    "longitude": 21.7642075
+  },
+  {
+    "id": 5,
+    "name": "Papakos",
+    "type": "convenience",
+    "latitude": 38.23553,
+    "longitude": 21.7622778
+  },
+  {
+    "id": 6,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2612908,
+    "longitude": 21.7540236
+  },
+  {
+    "id": 7,
+    "name": "Lidl",
+    "type": "supermarket",
+    "latitude": 38.2312926,
+    "longitude": 21.740082
+  },
+  {
+    "id": 8,
+    "name": "Κρόνος",
+    "type": "supermarket",
+    "latitude": 38.3013087,
+    "longitude": 21.7814957
+  },
+  {
+    "id": 9,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2949372,
+    "longitude": 21.790383
+  },
+  {
+    "id": 10,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2852364,
+    "longitude": 21.7666723
+  },
+  {
+    "id": 11,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2911121,
+    "longitude": 21.7714546
+  },
+  {
+    "id": 12,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2913332,
+    "longitude": 21.7666079
+  },
+  {
+    "id": 13,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2779126,
+    "longitude": 21.7625472
+  },
+  {
+    "id": 14,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2751636,
+    "longitude": 21.7574031
+  },
+  {
+    "id": 15,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2756942,
+    "longitude": 21.7629172
+  },
+  {
+    "id": 16,
+    "name": "Σκλαβενίτης",
+    "type": "supermarket",
+    "latitude": 38.2596476,
+    "longitude": 21.7489662
+  },
+  {
+    "id": 17,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2945036,
+    "longitude": 21.7883123
+  },
+  {
+    "id": 18,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2126477,
+    "longitude": 21.7568738
+  },
+  {
+    "id": 19,
+    "name": "Ρουμελιώτης SUPER Market",
+    "type": "supermarket",
+    "latitude": 38.2613806,
+    "longitude": 21.7436127
+  },
+  {
+    "id": 20,
+    "name": "Σκλαβενίτης",
+    "type": "supermarket",
+    "latitude": 38.2585236,
+    "longitude": 21.741582
+  },
+  {
+    "id": 21,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2991382,
+    "longitude": 21.7854989
+  },
+  {
+    "id": 22,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2915409,
+    "longitude": 21.7712803
+  },
+  {
+    "id": 23,
+    "name": "My market",
+    "type": "supermarket",
+    "latitude": 38.2323892,
+    "longitude": 21.7473265
+  },
+  {
+    "id": 24,
+    "name": "ΑΒ Βασιλόπουλος",
+    "type": "supermarket",
+    "latitude": 38.2322376,
+    "longitude": 21.7257294
+  },
+  {
+    "id": 25,
+    "name": "Markoulas",
+    "type": "supermarket",
+    "latitude": 38.2644973,
+    "longitude": 21.7603629
+  },
+  {
+    "id": 26,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2657865,
+    "longitude": 21.7593252
+  },
+  {
+    "id": 27,
+    "name": "Lidl",
+    "type": "supermarket",
+    "latitude": 38.3067563,
+    "longitude": 21.8051332
+  },
+  {
+    "id": 28,
+    "name": "Ανδρικόπουλος",
+    "type": "supermarket",
+    "latitude": 38.2399863,
+    "longitude": 21.736371
+  },
+  {
+    "id": 29,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2377144,
+    "longitude": 21.7399001
+  },
+  {
+    "id": 30,
+    "name": "Σκλαβενίτης",
+    "type": "supermarket",
+    "latitude": 38.2364945,
+    "longitude": 21.7373409
+  },
+  {
+    "id": 31,
+    "name": "My Market",
+    "type": "supermarket",
+    "latitude": 38.2427052,
+    "longitude": 21.7342362
+  },
+  {
+    "id": 32,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2803811,
+    "longitude": 21.7689392
+  },
+  {
+    "id": 33,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2767389,
+    "longitude": 21.7646316
+  },
+  {
+    "id": 34,
+    "name": "My market",
+    "type": "supermarket",
+    "latitude": 38.2568618,
+    "longitude": 21.7396708
+  },
+  {
+    "id": 35,
+    "name": "Ανδρικόπουλος",
+    "type": "supermarket",
+    "latitude": 38.1951968,
+    "longitude": 21.7323293
+  },
+  {
+    "id": 36,
+    "name": "ΑΒ ΒΑΣΙΛΟΠΟΥΛΟΣ",
+    "type": "supermarket",
+    "latitude": 38.2565589,
+    "longitude": 21.7418506
+  },
+  {
+    "id": 37,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2450095,
+    "longitude": 21.7365286
+  },
+  {
+    "id": 38,
+    "name": "Σκλαβενίτης",
+    "type": "supermarket",
+    "latitude": 38.2434859,
+    "longitude": 21.733285
+  },
+  {
+    "id": 39,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.2438242,
+    "longitude": 21.7339549
+  },
+  {
+    "id": 40,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2524287,
+    "longitude": 21.7414219
+  },
+  {
+    "id": 41,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2512732,
+    "longitude": 21.7423925
+  },
+  {
+    "id": 42,
+    "name": "Ανδρικόπουλος",
+    "type": "supermarket",
+    "latitude": 38.2427963,
+    "longitude": 21.7302559
+  },
+  {
+    "id": 43,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2454121,
+    "longitude": 21.7337191
+  },
+  {
+    "id": 44,
+    "name": "Mini Market",
+    "type": "convenience",
+    "latitude": 38.2725804,
+    "longitude": 21.8364993
+  },
+  {
+    "id": 45,
+    "name": "Carna",
+    "type": "convenience",
+    "latitude": 38.2795377,
+    "longitude": 21.7667136
+  },
+  {
+    "id": 46,
+    "name": "Mini Market",
+    "type": "convenience",
+    "latitude": 38.3052409,
+    "longitude": 21.7770011
+  },
+  {
+    "id": 47,
+    "name": "Kronos",
+    "type": "supermarket",
+    "latitude": 38.2425794,
+    "longitude": 21.7296435
+  },
+  {
+    "id": 48,
+    "name": "Φίλιππας",
+    "type": "convenience",
+    "latitude": 38.2585639,
+    "longitude": 21.7504681
+  },
+  {
+    "id": 49,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.3015018,
+    "longitude": 21.7940989
+  },
+  {
+    "id": 50,
+    "name": "No supermarket",
+    "type": "supermarket",
+    "latitude": 38.2498065,
+    "longitude": 21.7363349
+  },
+  {
+    "id": 51,
+    "name": "Kiosk",
+    "type": "convenience",
+    "latitude": 38.2490852,
+    "longitude": 21.735128
+  },
+  {
+    "id": 52,
+    "name": "Kiosk",
+    "type": "convenience",
+    "latitude": 38.2493169,
+    "longitude": 21.7349115
+  },
+  {
+    "id": 53,
+    "name": "Kiosk",
+    "type": "convenience",
+    "latitude": 38.2489563,
+    "longitude": 21.7344427
+  },
+  {
+    "id": 54,
+    "name": "Kiosk",
+    "type": "convenience",
+    "latitude": 38.2569875,
+    "longitude": 21.7413066
+  },
+  {
+    "id": 55,
+    "name": "Kiosk",
+    "type": "convenience",
+    "latitude": 38.2561434,
+    "longitude": 21.7409531
+  },
+  {
+    "id": 56,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2523678,
+    "longitude": 21.7400704
+  },
+  {
+    "id": 57,
+    "name": "Ανδρικόπουλος - Supermarket",
+    "type": "supermarket",
+    "latitude": 38.2691937,
+    "longitude": 21.7481501
+  },
+  {
+    "id": 58,
+    "name": "Σκλαβενίτης",
+    "type": "supermarket",
+    "latitude": 38.2690963,
+    "longitude": 21.7497014
+  },
+  {
+    "id": 59,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.233827,
+    "longitude": 21.7251655
+  },
+  {
+    "id": 60,
+    "name": "Mini Market",
+    "type": "convenience",
+    "latitude": 38.3277388,
+    "longitude": 21.8764222
+  },
+  {
+    "id": 61,
+    "name": "ΑΒ Βασιλόπουλος",
+    "type": "supermarket",
+    "latitude": 38.2170935,
+    "longitude": 21.7357783
+  },
+  {
+    "id": 62,
+    "name": "Mini Market",
+    "type": "convenience",
+    "latitude": 38.2160259,
+    "longitude": 21.7321204
+  },
+  {
+    "id": 63,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.312741,
+    "longitude": 21.8203451
+  },
+  {
+    "id": 64,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2451867,
+    "longitude": 21.7312416
+  },
+  {
+    "id": 65,
+    "name": "3A",
+    "type": "supermarket",
+    "latitude": 38.2504514,
+    "longitude": 21.7396687
+  },
+  {
+    "id": 66,
+    "name": "Spar",
+    "type": "supermarket",
+    "latitude": 38.2486316,
+    "longitude": 21.7389771
+  },
+  {
+    "id": 67,
+    "name": "ΑΝΔΡΙΚΟΠΟΥΛΟΣ",
+    "type": "supermarket",
+    "latitude": 38.2481545,
+    "longitude": 21.7383224
+  },
+  {
+    "id": 68,
+    "name": "ΑΝΔΡΙΚΟΠΟΥΛΟΣ",
+    "type": "supermarket",
+    "latitude": 38.2429466,
+    "longitude": 21.7308044
+  },
+  {
+    "id": 69,
+    "name": "MyMarket",
+    "type": "supermarket",
+    "latitude": 38.2392836,
+    "longitude": 21.7265283
+  },
+  {
+    "id": 70,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2653368,
+    "longitude": 21.7575349
+  },
+  {
+    "id": 71,
+    "name": "Ena Cash And Carry",
+    "type": "supermarket",
+    "latitude": 38.2346622,
+    "longitude": 21.7253472
+  },
+  {
+    "id": 72,
+    "name": "ΚΡΟΝΟΣ - (Σκαγιοπουλείου)",
+    "type": "supermarket",
+    "latitude": 38.2358002,
+    "longitude": 21.7294915
+  },
+  {
+    "id": 73,
+    "name": "Ανδρικόπουλος Super Market",
+    "type": "supermarket",
+    "latitude": 38.2379176,
+    "longitude": 21.7306406
+  },
+  {
+    "id": 74,
+    "name": "3Α Αράπης",
+    "type": "supermarket",
+    "latitude": 38.2375068,
+    "longitude": 21.7328984
+  },
+  {
+    "id": 75,
+    "name": "Γαλαξίας",
+    "type": "supermarket",
+    "latitude": 38.2361127,
+    "longitude": 21.733787
+  },
+  {
+    "id": 76,
+    "name": "Super Market Θεοδωρόπουλος",
+    "type": "supermarket",
+    "latitude": 38.2360129,
+    "longitude": 21.7283123
+  },
+  {
+    "id": 77,
+    "name": "Super Market ΚΡΟΝΟΣ",
+    "type": "supermarket",
+    "latitude": 38.2390442,
+    "longitude": 21.7340723
+  },
+  {
+    "id": 78,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2642274,
+    "longitude": 21.7396855
+  },
+  {
+    "id": 79,
+    "name": "No Name",
+    "type": "supermarket",
+    "latitude": 38.2658237,
+    "longitude": 21.7398813
+  },
+  {
+    "id": 80,
+    "name": "Σκλαβενίτης",
+    "type": "supermarket",
+    "latitude": 38.2601801,
+    "longitude": 21.7428703
+  },
+  {
+    "id": 81,
+    "name": "3A ARAPIS",
+    "type": "supermarket",
+    "latitude": 38.2586424,
+    "longitude": 21.7460078
+  },
+  {
+    "id": 82,
+    "name": "Μασούτης",
+    "type": "supermarket",
+    "latitude": 38.2454669,
+    "longitude": 21.7355058
+  },
+  {
+    "id": 83,
+    "name": "ΑΒ Shop & Go",
+    "type": "supermarket",
+    "latitude": 38.24957,
+    "longitude": 21.7380288
+  },
+  {
+    "id": 84,
+    "name": "3Α ΑΡΑΠΗΣ",
+    "type": "supermarket",
+    "latitude": 38.2398789,
+    "longitude": 21.7455558
+  },
+  {
+    "id": 85,
+    "name": "Περίπτερο",
+    "type": "convenience",
+    "latitude": 38.2554443,
+    "longitude": 21.7408745
+  },
+  {
+    "id": 86,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.1494223,
+    "longitude": 21.6232207
+  },
+  {
+    "id": 87,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.1477412,
+    "longitude": 21.6206284
+  },
+  {
+    "id": 88,
+    "name": "No Name",
+    "type": "convenience",
+    "latitude": 38.1563067,
+    "longitude": 21.6454791
+  }
+]

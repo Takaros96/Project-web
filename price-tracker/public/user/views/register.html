@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>price-tracker · Register</title>
+  </head>
+  <body
+    onload="onLoad()"
+    class="min-h-screen w-full flex flex-col justify-center items-center"
+  >
+    <h1 class="text-3xl mb-6">Account Creation</h1>
+
+    <form onsubmit="onRegisterFormSubmit(event)">
+      <input
+        aria-label="Email"
+        type="email"
+        id="email"
+        class="block w-full px-4 py-2 mb-6 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-500 focus:outline-none"
+        placeholder="Email"
+        required
+      />
+
+      <input
+        aria-label="Username"
+        type="text"
+        id="username"
+        class="block w-full px-4 py-2 mb-6 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-500 focus:outline-none"
+        placeholder="Username"
+        required
+      />
+
+      <input
+        aria-label="Password"
+        type="password"
+        id="password"
+        class="block w-full px-4 py-2 mb-3 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-500 focus:outline-none"
+        placeholder="Password"
+        required
+      />
+
+      <div
+        id="alert-box"
+        role="alert"
+        class="hidden py-4 px-4 rounded text-center bg-red-200 text-red-700"
+      ></div>
+
+      <div class="text-center lg:text-left mt-3">
+        <button
+          type="submit"
+          class="inline-block px-7 py-3 bg-blue-500 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-600 hover:shadow-lg focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-700 active:shadow-lg transition duration-150 ease-in-out"
+        >
+          Register
+        </button>
+        <p class="text-sm font-semibold mt-2 pt-1 mb-0">
+          Already have an account?
+          <a
+            href="/login"
+            class="text-red-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out"
+            >Login</a
+          >
+        </p>
+      </div>
+    </form>
+
+    <script src="/public/user/js/register.js"></script>
+  </body>
+</html>
